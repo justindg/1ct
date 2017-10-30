@@ -109,7 +109,7 @@ b {
 }
 
 .service {
-  padding: 50px 5%;
+  padding: 60px 3%;
   overflow: auto;
 }
 
@@ -129,9 +129,7 @@ b {
 }
 
 .service-overview {
-  float: left;
-  width: 33.33%;
-  padding-right: 40px;
+  padding-right: 20px;
   box-sizing: border-box;
 }
 
@@ -157,25 +155,37 @@ b {
 }
 
 .service-objectives {
-  float: left;
-  width: 33.33%;
   padding: 0 10px;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .white-container {
   background-color: white;
   font-weight: 300;
-  padding: 30px;
+  padding: 25px;
   box-sizing: border-box;
   color: black;
 }
 
 .service-products {
-  float: left;
-  width: 33.33%;
+  background-color: white;
   padding: 0 10px;
   box-sizing: border-box;
+}
+
+.table-service {
+  width: 100%;
+  border-spacing: 20px 0px;
+}
+
+.table-service tbody tr td {
+  width: 33.33%;
+  vertical-align: top;
+}
+
+.white-bg {
+  background-color: white;
 }
 
 #team {
