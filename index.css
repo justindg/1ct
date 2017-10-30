@@ -1,0 +1,466 @@
+body {
+  font-family: "Roboto";
+  width: 100%;
+  font-size: 16px;
+  margin: 0;
+}
+
+b {
+  font-weight: 500;
+}
+
+#banner {
+  padding: 80px 10% 50px 10%;
+  text-align: center;
+}
+
+.banner-logo {
+  margin-bottom: 10px;
+}
+
+.banner-img {
+  height: 80px;
+}
+
+.banner-title {
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.banner-spacer {
+  border-bottom: 3px solid black;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.banner-subtext {
+  font-size: 3em;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+}
+
+#pillars {
+  overflow: auto;
+  padding: 50px 5%;
+}
+
+.pillar {
+  overflow: auto;
+  padding: 20px 20px 0 20px;
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pillar-logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pillar-header {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pillar-image {
+  margin-right: 10px;
+  height: 96px;
+}
+
+.pillar-description {
+  font-weight: 300;
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pillar-learnmore {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #FFCC00;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.pillar-learnmore > a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.table-pillars {
+  width: 100%;
+  text-align: center;
+}
+
+.table-pillars tbody tr td {
+  width: 33.33%;
+  vertical-align: top;
+}
+
+.service {
+  padding: 50px 5%;
+  overflow: auto;
+}
+
+#ui {
+  background-color: #54C2E8;
+  color: white;
+}
+
+#ic {
+  background-color: #FFCC00;
+  color: white;
+}
+
+#rp {
+  background-color: #54C2E8;
+  color: white;
+}
+
+.service-overview {
+  float: left;
+  width: 33.33%;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.service-image {
+  height: 60px;
+}
+
+.service-title {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.service-title-border {
+  width: 100px;
+  border: 2px solid white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.service-objectives {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.white-container {
+  background-color: white;
+  font-weight: 300;
+  padding: 30px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.service-products {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#team {
+  padding: 30px 5%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  padding: 30px;
+}
+
+.member {
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px 10px 30px 10px;
+  /*background-color: white;*/
+}
+
+.member-spacer{
+  height: 1px;
+  width: 100%;
+  clear: both;
+}
+
+.member:hover {
+  box-shadow: 0 10px 30px rgba(0,41,96,.32);
+  transition: box-shadow .4s ease-in-out;
+}
+
+.member-pic {
+  text-align: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 360px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.member-eddy {
+  background-image: url('img/member-eddy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-eryk {
+  background-image: url('img/member-eryk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-amy {
+  background-image: url('img/member-amy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-jesse {
+  background-image: url('img/member-jesse.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-raymon {
+  background-image: url('img/member-raymon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-marc {
+  background-image: url('img/member-marc.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-justin {
+  background-image: url('img/member-justin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-brandon {
+  background-image: url('img/member-brandon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.member-title {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  color: #888;
+  font-weight: 300;
+}
+
+.member-name {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#whyus {
+  overflow: auto;
+  padding: 30px 5%;
+}
+
+.values-header {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  margin-top: 10px;
+  padding: 30px 0;
+}
+
+.tbl-values {
+  width: 100%;
+  border-spacing: 30px 0;
+  margin-bottom: 30px;
+}
+
+.tbl-values tbody tr td {
+  margin: auto 5%;
+  text-align: center;
+  vertical-align: top;
+  width: 33.33%;
+}
+
+.tbl-values2 {
+  width: 100%;
+  border-spacing: 30px 0;
+  padding: 0 10%;
+}
+
+.tbl-values2 tbody tr td {
+  margin: auto 5%;
+  text-align: center;
+  vertical-align: top;
+  width: 50%;
+}
+
+.value {
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.value_img {
+  text-align: left;
+}
+
+.value-desc {
+  font-weight: 300;
+  text-align: left;
+  color: #666;
+  font-size: 1.2em;
+}
+
+#sayhello {
+  padding: 30px 5% 60px 5%;
+  background-color: #333;
+  color: white;
+}
+
+.table-sayhello {
+  width: 100%;
+}
+
+.table-sayhello tbody tr td {
+  width: 33.33%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.sayhello-name {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.sayhello-email {
+  text-align: center;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+
+.sayhello-pic {
+  text-align: center;
+  height: 120px;
+  width: 120px;
+  border-radius: 360px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.sayhello-topic {
+  font-weight: 300;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.sayhello-contact {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #FFCC00;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.sayhello-contact > a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.sayhello-yammer-header {
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.sayhello-yammer-text {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.sayhello-yammer-button {
+  text-align: center;
+  margin-top: 10px;
+  background-color: #FFCC00;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+.sayhello-yammer-button > a {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+
+.footer {
+  background-color: black;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin: 5px 0;
+}
